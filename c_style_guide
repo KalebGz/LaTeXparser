@@ -1,0 +1,8 @@
+Naming Convention
+
+Local Variables: camelCase, newString
+Params: underscore, string_name
+global variables: CAPS,  COUNTER;
+struct names: Standard, Str; FirstArg;
+standard function names: underscore, process_string;
+boolean functions: camelCase, isDefined;

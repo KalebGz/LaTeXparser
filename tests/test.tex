@@ -1,0 +1,23 @@
+\def{escape}{To escape a # precede it by a backslash}
+\escape{\\}
+\escape{\{}
+\escape{\}}
+% Failed tests:  escape(14 46) memory(18)
+% \def{a}{#}
+% \def{b}{{#}}
+% \def{c}{{{#}}}
+% \def{d}{{#}{#}}
+% \def{e}{{{{#}}}}
+% \def{f}{{{#}{#}}}
+% \def{g}{{{#}}{#}}
+% \def{h}{{#}{{#}}}
+% \def{i}{{#}{#}{#}}
+% \a{a}
+% \b{{b}}
+% \c{{{c}}}
+% \d{{d}{d}}
+% \e{{{{e}}}}
+% \f{{{f}{f}}}
+% \g{{{g}}{g}}
+% \h{{h}{{h}}}
+% \i{{i}{i}{i}}
